@@ -1,0 +1,100 @@
+<resources>
+    <string name="app_name">Foodiest</string>
+    <string name="home">Home</string>
+    <string name="location">Location</string>
+    <string name="favorite">Favorite</string>
+    <string name="profile">Profile</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="lable_store">Sydney CBD</string>
+    <string name="lable_hint">Search For Restaurant</string>
+    <string name="most">Most Popular</string>
+    <string name="see">see all</string>
+    <string name="food_name">food name</string>
+    <string name="address">address</string>
+    <string name="kind">kind</string>
+    <string name="lable_name">Name Food</string>
+    <string name="lable_kind">Kind</string>
+    <string name="lable_address">Address</string>
+    <string name="lable_desc">Description</string>
+    <string name="popular">Popular</string>
+    <string name="health">Healthy Food</string>
+    <string name="junk">Junk Food</string>
+    <string name="dessert">Dessert</string>
+    <string name="id">Indonesian Food</string>
+    <string name="jpn">Japanese Food</string>
+    <string name="us">American Food</string>
+    <string name="best">Best Seller</string>
+    <string name="lable_price">Food Price</string>
+    <string name="lable_rating">Rating</string>
+    <string name="lable_visit">Visit Us</string>
+    <string name="lable_order">Order Now</string>
+    <string name="seafood">Seafood</string>
+
+    <string-array name="name">
+        <item>Seblak Mie</item>
+        <item>Ramen</item>
+        <item>Ayam Geprek</item>
+        <item>Corndog</item>
+        <item>CheeseBurger</item>
+    </string-array>
+    <string-array name="address">
+        <item>Mama Afdan</item>
+        <item>Gokana</item>
+        <item>Dioz</item>
+        <item>Oppa Corndog</item>
+        <item>Burger King</item>
+    </string-array>
+    <string-array name="kind">
+        <item>Appetizer</item>
+        <item>Main Course</item>
+        <item>Main Course</item>
+        <item>Dessert</item>
+        <item>Main Course</item>
+    </string-array>
+    <array name="image">
+        <item>@drawable/photo1</item>
+        <item>@drawable/ramen</item>
+        <item>@drawable/photo3</item>
+        <item>@drawable/corndog</item>
+        <item>@drawable/cheeseburger</item>
+    </array>
+    <string-array name="desc">
+        <item>Seblak adalah makanan Indonesia, umumnya adalah makanan khas dari Sunda, Jawa Barat
+            yang bercita rasa gurih dan pedas yang terbuat dari kerupuk basah yang dimasak dengan
+            sayuran dan sumber protein seperti telur, ayam, boga bahari atau olahan daging sapi,
+            dimasak dengan bumbu tertentu.[1] Seblak adalah makanan khas Bandung, Jawa Barat. Seblak
+            kini menjadi makanan jajanan jalanan yang digemari berbagai kalangan masyarakat terutama
+            di daerah Jawa Barat dan Jabodetabek. Seblak disajikan di rumah makan dan warung, serta
+            dijajakan di gerobak pedagang keliling. Makanan yang bertekstur kenyal ini memiliki rasa
+            yang pedas dan menyegarkan, serta memiliki beberapa variasi, baik rasa maupun bahan
+            tambahan juga kemasan.
+        </item>
+        <item>Ramen adalah masakan mi kuah Jepang yang berasal dari China. Orang Jepang juga
+            menyebut ramen sebagai chuka soba atau shina soba karena soba atau o-soba dalam bahasa
+            Jepang sering juga berarti mi.
+        </item>
+        <item>Ayam geprek adalah makanan ayam goreng tepung khas Indonesia yang diulek atau
+            dilumatkan bersama sambal bajak. Kini ayam geprek telah menjadi hidangan populer yang
+            dapat ditemukan di hampir semua kota besar di Indonesia, tetapi asal mula ayam geprek
+            berasal dari kota Yogyakarta.
+        </item>
+        <item>Corndog adalah sosis yang ditusuk seperti satai dan dicelupkan ke dalam adonan tepung
+            jagung lalu di goreng.Awalnya, corndog dibuat tidak dengan menggunakan tusukan, namun
+            untuk memudahkan ketika menyantapnya, sang kreator menusukkan makanan tersebut di batang
+            kecil yang terbuat dari kayu serupa tusuk sate.
+        </item>
+        <item>CheeseBurger adalah sejenis makanan berupa roti berbentuk bundar yang diiris dua dan
+            ditengahnya diisi dengan patty yang biasanya di ambil dari daging, kemudian
+            sayur-sayuran berupa selada, tomat, bawang bombay, dan beberapa lapis keju
+        </item>
+    </string-array>
+    <string-array name="price">
+        <item>Rp 10.000</item>
+        <item>Rp 30.000</item>
+        <item>Rp 15.000</item>
+        <item>Rp 15.000</item>
+        <item>Rp 25.000</item>
+    </string-array>
+</resources>

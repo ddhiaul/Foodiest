@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_4sdp"
+        app:cardCornerRadius="@dimen/_8sdp">
+
+   <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+       <FrameLayout
+               android:id="@+id/fm_food"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+           <FrameLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:foreground="@drawable/foreground">
+               <ImageView
+                       android:id="@+id/iv_straggered_food"
+                       android:layout_width="match_parent"
+                       android:layout_height="match_parent"
+                       android:scaleType="fitXY"
+                       android:src="@drawable/food1" />
+           </FrameLayout>
+           <TextView
+                   android:id="@+id/tv_straggered_name_food"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="bottom"
+                   android:layout_marginStart="@dimen/_4sdp"
+                   android:textColor="@android:color/white"
+                   android:text="@string/lable_name"
+                   android:textSize="18sp" />
+       </FrameLayout>
+       <TextView
+               android:id="@+id/tv_straggered_kind_food"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginStart="@dimen/_8sdp"
+               android:layout_marginEnd="@dimen/_8sdp"
+               android:layout_marginTop="@dimen/_8sdp"
+               android:layout_below="@+id/fm_food"
+               android:text="@string/lable_kind"
+               android:textColor="@android:color/black"
+               android:textSize="18sp"
+               android:textStyle="bold"/>
+       <TextView
+               android:id="@+id/tv_title_address_food"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginStart="@dimen/_8sdp"
+               android:layout_marginEnd="@dimen/_8sdp"
+               android:layout_marginTop="@dimen/_8sdp"
+               android:layout_below="@+id/tv_straggered_kind_food"
+               android:text="@string/lable_address"
+               android:textColor="@android:color/black"
+               android:textSize="18sp" />
+       <TextView
+               android:id="@+id/tv_straggered_address_food"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginStart="@dimen/_8sdp"
+               android:layout_marginEnd="@dimen/_8sdp"
+               android:layout_marginTop="@dimen/_8sdp"
+               android:layout_below="@+id/tv_title_address_food"
+               android:text="@string/lable_address"
+               android:textSize="18sp" />
+       <TextView
+               android:id="@+id/tv_title_desc_food"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginStart="@dimen/_8sdp"
+               android:layout_marginEnd="@dimen/_8sdp"
+               android:layout_marginTop="@dimen/_8sdp"
+               android:layout_below="@+id/tv_straggered_address_food"
+               android:text="@string/lable_desc"
+               android:textColor="@android:color/black"
+               android:textSize="18sp" />
+       <TextView
+               android:id="@+id/tv_straggered_desc_food"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_margin="@dimen/_8sdp"
+               android:layout_below="@+id/tv_title_desc_food"
+               android:maxLines="2"
+               android:ellipsize="end"
+               android:text="@string/lable_desc"
+               android:textSize="18sp" />
+
+       <com.google.android.material.floatingactionbutton.FloatingActionButton
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_above="@+id/tv_title_address_food"
+               android:layout_marginEnd="@dimen/_8sdp"
+               android:layout_alignParentEnd="true"
+               android:layout_marginBottom="@dimen/_8sdp"
+               android:src="@drawable/ic_favorite"
+               app:backgroundTint="@color/colorPrimary"
+               app:fabSize="mini"
+               app:layout_anchor="@id/fm_food" />
+
+   </RelativeLayout>
+
+
+
+</androidx.cardview.widget.CardView>
